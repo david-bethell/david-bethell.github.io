@@ -1,0 +1,56 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.banner_message {
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 10px;
+    border: 5px solid #acacac;
+    background-color: #e0da7d;
+    width: calc(100% - 10px);
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner_message .banner_text {
+    display: block;
+    font-size: larger;
+    text-align: center;
+    margin: 5px;
+}
+
+.banner_message .banner_button {
+    display: block;
+}
+
+header {
+    float: left;
+}
+
+nav {
+    float: right;
+    display: flex;
+    flex-flow: column;
+    width: 20%;
+}
+
+nav img {
+   width: 100%; 
+}
+
+nav .fb-image {
+    width: 244px;
+    height: 296px;
+    background-image: url("verns_facebook_closed.png");
+}
+
+nav .fb-image:hover {
+    width: 244px;
+    height: 296px;
+    background-image: url("verns_facebook_open.png");
+}
